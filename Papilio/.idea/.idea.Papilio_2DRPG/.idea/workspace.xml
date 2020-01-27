@@ -1,0 +1,1170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0d003521-cb0c-4f4d-b2bf-341347910ae3" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MovingObject.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MovingObject.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="636">
+              <caret line="68" column="28" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="28" />
+              <folding>
+                <marker date="1555319658216" expanded="false" signature="6:44" ph="..." />
+                <marker date="1555319658216" expanded="true" signature="87:4834" ph="{...}" />
+                <marker date="1555319658216" expanded="true" signature="94:198" ph="/// static : 정적 변수로서, 해당 스크립트가 적용된 모든 객체들은 Static으로 선언된 변수의 값을 공유함. ... " />
+                <marker date="1555319658216" expanded="true" signature="249:336" ph="/// transferMap 스크립트에 있는 transferMapName 변수의 값을 저장 ... " />
+                <marker date="1555319658216" expanded="true" signature="377:440" ph="/// 스피드와 캐릭터 움직임을 위한 벡터 변수 ... " />
+                <marker date="1555319658216" expanded="true" signature="499:556" ph="/// 대쉬를 눌렀을 때를 위한 변수 ... " />
+                <marker date="1555319658216" expanded="true" signature="623:693" ph="/// 대쉬 눌렀을 때 걷기 두 배씩 이동하는 것 막는 변수 ... " />
+                <marker date="1555319658216" expanded="true" signature="738:800" ph="/// 픽셀 단위로 움직이기 위해 필요한 변수 ... " />
+                <marker date="1555319658216" expanded="true" signature="867:933" ph="/// 코루틴이 반복실행되지 않게끔 제어해주는 변수. ... " />
+                <marker date="1555319658216" expanded="true" signature="972:1028" ph="/// 애니메이션 제어를 위한 부분 ... " />
+                <marker date="1555319658216" expanded="true" signature="1065:1134" ph="/// 벽이나 물체에 막혔을 때 멈추게 하기 위한 스크립트 ... " />
+                <marker date="1555319658216" expanded="true" signature="1278:1795" ph="{...}" />
+                <marker date="1555319658216" expanded="true" signature="1314:1531" ph="{...}" />
+                <marker date="1555319658216" expanded="true" signature="1544:1780" ph="{...}" />
+                <marker date="1555319658216" expanded="true" signature="1660:1770" ph="/* 주었기 때문. 그리고나서, 해당 스크립트가 적용된 객체가 또 생성될 경우, static으로 값을 공유한 instance의 값이 ... */" />
+                <marker date="1555319658216" expanded="true" signature="1828:4485" ph="{...}" />
+                <marker date="1555319658216" expanded="true" signature="1941:4388" ph="{...}" />
+                <marker date="1555319658216" expanded="true" signature="2000:2107" ph="{...}" />
+                <marker date="1555319658216" expanded="true" signature="2124:2225" ph="{...}" />
+                <marker date="1555319658216" expanded="true" signature="2409:2485" ph="/* 만약에 벡터x의 값이 있다면 다른 벡터 값은 초기화한다. ... */" />
+                <marker date="1555319658216" expanded="true" signature="2764:2838" ph="/* hit = Null; 값이 리턴된다. ... */" />
+                <marker date="1555319658216" expanded="true" signature="3350:3423" ph="{...}" />
+                <marker date="1555319658216" expanded="true" signature="3486:3569" ph="/* 픽셀 단위로 움직이기 위한 스크립트 ... */" />
+                <marker date="1555319658216" expanded="true" signature="3618:4343" ph="{...}" />
+                <marker date="1555319658216" expanded="true" signature="3685:3804" ph="{...}" />
+                <marker date="1555319658216" expanded="true" signature="3863:3982" ph="{...}" />
+                <marker date="1555319658216" expanded="true" signature="4051:4127" ph="{...}" />
+                <marker date="1555319658216" expanded="true" signature="4504:4832" ph="{...}" />
+                <marker date="1555319658216" expanded="true" signature="4535:4826" ph="{...}" />
+                <marker date="1555319658216" expanded="true" signature="4706:4816" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CameraManager.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1558">
+              <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
+              <folding>
+                <marker date="1555324821658" expanded="false" signature="6:78" ph="..." />
+                <marker date="1555324821658" expanded="true" signature="359:425" ph="/// 박스콜라이더의 x,y,z 영역 최소, 최대 값 ... " />
+                <marker date="1555324821658" expanded="true" signature="492:643" ph="/// 카메라의 중심점이 가운데에 있기 때문에 카메라가 화면 밖으로 나가지 않으려면 절반만 움직여줘야 함. ... " />
+                <marker date="1555324821658" expanded="true" signature="709:780" ph="/// 카메라의 반 높이 값을 구할 속성을 이용하기 위한 변수 ... " />
+                <marker date="1555324821658" expanded="true" signature="863:1074" ph="{...}" />
+                <marker date="1555324821658" expanded="true" signature="899:957" ph="{...}" />
+                <marker date="1555324821658" expanded="true" signature="971:1068" ph="{...}" />
+                <marker date="1555324821658" expanded="true" signature="1101:1394" ph="{...}" />
+                <marker date="1555324821658" expanded="true" signature="1422:2415" ph="{...}" />
+                <marker date="1555324821658" expanded="true" signature="1486:2409" ph="{...}" />
+                <marker date="1555324821658" expanded="true" signature="2014:2181" ph="/* (10,0,100)일 경우 10이 값, 0이 최소값, 100이 최댓값 ... */" />
+                <marker date="1555324821658" expanded="true" signature="2465:2598" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bound.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Bound.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+              <folding>
+                <marker date="1555325034881" expanded="false" signature="6:78" ph="..." />
+                <marker date="1555325034881" expanded="true" signature="114:332" ph="{...}" />
+                <marker date="1555325034881" expanded="true" signature="205:330" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StartPoint.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/StartPoint.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <marker date="1555318727164" expanded="false" signature="6:78" ph="..." />
+                <marker date="1555318727164" expanded="true" signature="119:633" ph="{...}" />
+                <marker date="1555318727164" expanded="true" signature="265:631" ph="{...}" />
+                <marker date="1555318727164" expanded="true" signature="430:628" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransferMap.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/TransferMap.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+              <folding>
+                <marker date="1555324725312" expanded="false" signature="6:113" ph="..." />
+                <marker date="1555324725312" expanded="true" signature="306:381" ph="{...}" />
+                <marker date="1555324725312" expanded="true" signature="438:716" ph="{...}" />
+                <marker date="1555324725312" expanded="true" signature="495:710" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TransferMap.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MovingObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StartPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bound.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraManager.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/StartPoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MovingObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TransferMap.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bound.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="713" />
+    <option name="y" value="104" />
+    <option name="width" value="1187" />
+    <option name="height" value="824" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Papilio_2DRPG" type="483dac07:UnityExplorerNode$Root" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+      </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d003521-cb0c-4f4d-b2bf-341347910ae3" name="Default" comment="" />
+      <created>1552215248586</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552215248586</updated>
+      <workItem from="1552215254751" duration="22000" />
+      <workItem from="1552215304828" duration="898000" />
+      <workItem from="1552216220400" duration="1497000" />
+      <workItem from="1552217730649" duration="1663000" />
+      <workItem from="1554729906327" duration="1307000" />
+      <workItem from="1554732219228" duration="1090000" />
+      <workItem from="1555042005193" duration="3518000" />
+      <workItem from="1555053900783" duration="1034000" />
+      <workItem from="1555306496033" duration="517000" />
+      <workItem from="1555307022979" duration="2301000" />
+      <workItem from="1555317750953" duration="2470000" />
+      <workItem from="1555320236541" duration="4830000" />
+      <workItem from="1580116031965" duration="717000" />
+      <workItem from="1580116866009" duration="850000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="22714000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="713" y="104" width="1187" height="824" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.031943213" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="8" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" isUnityUI="true" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MovingObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1273">
+          <caret line="68" column="28" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="28" />
+          <folding>
+            <marker date="1555319658216" expanded="false" signature="6:44" ph="..." />
+            <marker date="1555319658216" expanded="true" signature="87:4834" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="94:198" ph="/// static : 정적 변수로서, 해당 스크립트가 적용된 모든 객체들은 Static으로 선언된 변수의 값을 공유함. ... " />
+            <marker date="1555319658216" expanded="true" signature="249:336" ph="/// transferMap 스크립트에 있는 transferMapName 변수의 값을 저장 ... " />
+            <marker date="1555319658216" expanded="true" signature="377:440" ph="/// 스피드와 캐릭터 움직임을 위한 벡터 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="499:556" ph="/// 대쉬를 눌렀을 때를 위한 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="623:693" ph="/// 대쉬 눌렀을 때 걷기 두 배씩 이동하는 것 막는 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="738:800" ph="/// 픽셀 단위로 움직이기 위해 필요한 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="867:933" ph="/// 코루틴이 반복실행되지 않게끔 제어해주는 변수. ... " />
+            <marker date="1555319658216" expanded="true" signature="972:1028" ph="/// 애니메이션 제어를 위한 부분 ... " />
+            <marker date="1555319658216" expanded="true" signature="1065:1134" ph="/// 벽이나 물체에 막혔을 때 멈추게 하기 위한 스크립트 ... " />
+            <marker date="1555319658216" expanded="true" signature="1278:1795" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1314:1531" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1544:1780" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1660:1770" ph="/* 주었기 때문. 그리고나서, 해당 스크립트가 적용된 객체가 또 생성될 경우, static으로 값을 공유한 instance의 값이 ... */" />
+            <marker date="1555319658216" expanded="true" signature="1828:4485" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1941:4388" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="2000:2107" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="2124:2225" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="2409:2485" ph="/* 만약에 벡터x의 값이 있다면 다른 벡터 값은 초기화한다. ... */" />
+            <marker date="1555319658216" expanded="true" signature="2764:2838" ph="/* hit = Null; 값이 리턴된다. ... */" />
+            <marker date="1555319658216" expanded="true" signature="3350:3423" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="3486:3569" ph="/* 픽셀 단위로 움직이기 위한 스크립트 ... */" />
+            <marker date="1555319658216" expanded="true" signature="3618:4343" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="3685:3804" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="3863:3982" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4051:4127" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4504:4832" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4535:4826" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4706:4816" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1558">
+          <caret line="84" column="21" lean-forward="true" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
+          <folding>
+            <marker date="1555324821658" expanded="false" signature="6:78" ph="..." />
+            <marker date="1555324821658" expanded="true" signature="359:425" ph="/// 박스콜라이더의 x,y,z 영역 최소, 최대 값 ... " />
+            <marker date="1555324821658" expanded="true" signature="492:643" ph="/// 카메라의 중심점이 가운데에 있기 때문에 카메라가 화면 밖으로 나가지 않으려면 절반만 움직여줘야 함. ... " />
+            <marker date="1555324821658" expanded="true" signature="709:780" ph="/// 카메라의 반 높이 값을 구할 속성을 이용하기 위한 변수 ... " />
+            <marker date="1555324821658" expanded="true" signature="863:1074" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="899:957" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="971:1068" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="1101:1394" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="1422:2415" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="1486:2409" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="2014:2181" ph="/* (10,0,100)일 경우 10이 값, 0이 최소값, 100이 최댓값 ... */" />
+            <marker date="1555324821658" expanded="true" signature="2465:2598" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/StartPoint.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <marker date="1555318727164" expanded="false" signature="6:78" ph="..." />
+            <marker date="1555318727164" expanded="true" signature="119:633" ph="{...}" />
+            <marker date="1555318727164" expanded="true" signature="265:631" ph="{...}" />
+            <marker date="1555318727164" expanded="true" signature="430:628" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TransferMap.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+          <folding>
+            <marker date="1555324725312" expanded="false" signature="6:113" ph="..." />
+            <marker date="1555324725312" expanded="true" signature="306:381" ph="{...}" />
+            <marker date="1555324725312" expanded="true" signature="438:716" ph="{...}" />
+            <marker date="1555324725312" expanded="true" signature="495:710" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Bound.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding>
+            <marker date="1555325034881" expanded="false" signature="6:78" ph="..." />
+            <marker date="1555325034881" expanded="true" signature="114:332" ph="{...}" />
+            <marker date="1555325034881" expanded="true" signature="205:330" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MovingObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1273">
+          <caret line="68" column="28" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="28" />
+          <folding>
+            <marker date="1555319658216" expanded="false" signature="6:44" ph="..." />
+            <marker date="1555319658216" expanded="true" signature="87:4834" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="94:198" ph="/// static : 정적 변수로서, 해당 스크립트가 적용된 모든 객체들은 Static으로 선언된 변수의 값을 공유함. ... " />
+            <marker date="1555319658216" expanded="true" signature="249:336" ph="/// transferMap 스크립트에 있는 transferMapName 변수의 값을 저장 ... " />
+            <marker date="1555319658216" expanded="true" signature="377:440" ph="/// 스피드와 캐릭터 움직임을 위한 벡터 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="499:556" ph="/// 대쉬를 눌렀을 때를 위한 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="623:693" ph="/// 대쉬 눌렀을 때 걷기 두 배씩 이동하는 것 막는 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="738:800" ph="/// 픽셀 단위로 움직이기 위해 필요한 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="867:933" ph="/// 코루틴이 반복실행되지 않게끔 제어해주는 변수. ... " />
+            <marker date="1555319658216" expanded="true" signature="972:1028" ph="/// 애니메이션 제어를 위한 부분 ... " />
+            <marker date="1555319658216" expanded="true" signature="1065:1134" ph="/// 벽이나 물체에 막혔을 때 멈추게 하기 위한 스크립트 ... " />
+            <marker date="1555319658216" expanded="true" signature="1278:1795" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1314:1531" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1544:1780" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1660:1770" ph="/* 주었기 때문. 그리고나서, 해당 스크립트가 적용된 객체가 또 생성될 경우, static으로 값을 공유한 instance의 값이 ... */" />
+            <marker date="1555319658216" expanded="true" signature="1828:4485" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1941:4388" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="2000:2107" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="2124:2225" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="2409:2485" ph="/* 만약에 벡터x의 값이 있다면 다른 벡터 값은 초기화한다. ... */" />
+            <marker date="1555319658216" expanded="true" signature="2764:2838" ph="/* hit = Null; 값이 리턴된다. ... */" />
+            <marker date="1555319658216" expanded="true" signature="3350:3423" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="3486:3569" ph="/* 픽셀 단위로 움직이기 위한 스크립트 ... */" />
+            <marker date="1555319658216" expanded="true" signature="3618:4343" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="3685:3804" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="3863:3982" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4051:4127" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4504:4832" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4535:4826" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4706:4816" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/StartPoint.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <marker date="1555318727164" expanded="false" signature="6:78" ph="..." />
+            <marker date="1555318727164" expanded="true" signature="119:633" ph="{...}" />
+            <marker date="1555318727164" expanded="true" signature="265:631" ph="{...}" />
+            <marker date="1555318727164" expanded="true" signature="430:628" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TransferMap.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+          <folding>
+            <marker date="1555324725312" expanded="false" signature="6:113" ph="..." />
+            <marker date="1555324725312" expanded="true" signature="306:381" ph="{...}" />
+            <marker date="1555324725312" expanded="true" signature="438:716" ph="{...}" />
+            <marker date="1555324725312" expanded="true" signature="495:710" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Bound.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+          <folding>
+            <marker date="1555325034881" expanded="false" signature="6:78" ph="..." />
+            <marker date="1555325034881" expanded="true" signature="114:332" ph="{...}" />
+            <marker date="1555325034881" expanded="true" signature="205:330" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
+          <folding>
+            <marker date="1555324821658" expanded="false" signature="6:78" ph="..." />
+            <marker date="1555324821658" expanded="true" signature="359:425" ph="/// 박스콜라이더의 x,y,z 영역 최소, 최대 값 ... " />
+            <marker date="1555324821658" expanded="true" signature="492:643" ph="/// 카메라의 중심점이 가운데에 있기 때문에 카메라가 화면 밖으로 나가지 않으려면 절반만 움직여줘야 함. ... " />
+            <marker date="1555324821658" expanded="true" signature="709:780" ph="/// 카메라의 반 높이 값을 구할 속성을 이용하기 위한 변수 ... " />
+            <marker date="1555324821658" expanded="true" signature="863:1074" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="899:957" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="971:1068" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="1101:1394" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="1422:2415" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="1486:2409" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="2014:2181" ph="/* (10,0,100)일 경우 10이 값, 0이 최소값, 100이 최댓값 ... */" />
+            <marker date="1555324821658" expanded="true" signature="2465:2598" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MovingObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1273">
+          <caret line="68" column="28" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="28" />
+          <folding>
+            <marker date="1555319658216" expanded="false" signature="6:44" ph="..." />
+            <marker date="1555319658216" expanded="true" signature="87:4834" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="94:198" ph="/// static : 정적 변수로서, 해당 스크립트가 적용된 모든 객체들은 Static으로 선언된 변수의 값을 공유함. ... " />
+            <marker date="1555319658216" expanded="true" signature="249:336" ph="/// transferMap 스크립트에 있는 transferMapName 변수의 값을 저장 ... " />
+            <marker date="1555319658216" expanded="true" signature="377:440" ph="/// 스피드와 캐릭터 움직임을 위한 벡터 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="499:556" ph="/// 대쉬를 눌렀을 때를 위한 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="623:693" ph="/// 대쉬 눌렀을 때 걷기 두 배씩 이동하는 것 막는 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="738:800" ph="/// 픽셀 단위로 움직이기 위해 필요한 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="867:933" ph="/// 코루틴이 반복실행되지 않게끔 제어해주는 변수. ... " />
+            <marker date="1555319658216" expanded="true" signature="972:1028" ph="/// 애니메이션 제어를 위한 부분 ... " />
+            <marker date="1555319658216" expanded="true" signature="1065:1134" ph="/// 벽이나 물체에 막혔을 때 멈추게 하기 위한 스크립트 ... " />
+            <marker date="1555319658216" expanded="true" signature="1278:1795" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1314:1531" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1544:1780" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1660:1770" ph="/* 주었기 때문. 그리고나서, 해당 스크립트가 적용된 객체가 또 생성될 경우, static으로 값을 공유한 instance의 값이 ... */" />
+            <marker date="1555319658216" expanded="true" signature="1828:4485" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1941:4388" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="2000:2107" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="2124:2225" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="2409:2485" ph="/* 만약에 벡터x의 값이 있다면 다른 벡터 값은 초기화한다. ... */" />
+            <marker date="1555319658216" expanded="true" signature="2764:2838" ph="/* hit = Null; 값이 리턴된다. ... */" />
+            <marker date="1555319658216" expanded="true" signature="3350:3423" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="3486:3569" ph="/* 픽셀 단위로 움직이기 위한 스크립트 ... */" />
+            <marker date="1555319658216" expanded="true" signature="3618:4343" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="3685:3804" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="3863:3982" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4051:4127" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4504:4832" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4535:4826" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4706:4816" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/StartPoint.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <marker date="1555318727164" expanded="false" signature="6:78" ph="..." />
+            <marker date="1555318727164" expanded="true" signature="119:633" ph="{...}" />
+            <marker date="1555318727164" expanded="true" signature="265:631" ph="{...}" />
+            <marker date="1555318727164" expanded="true" signature="430:628" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TransferMap.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="70" selection-start-line="20" selection-start-column="70" selection-end-line="20" selection-end-column="70" />
+          <folding>
+            <marker date="1555324725312" expanded="false" signature="6:113" ph="..." />
+            <marker date="1555324725312" expanded="true" signature="306:381" ph="{...}" />
+            <marker date="1555324725312" expanded="true" signature="438:716" ph="{...}" />
+            <marker date="1555324725312" expanded="true" signature="495:710" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding>
+            <marker date="1555324821658" expanded="false" signature="6:78" ph="..." />
+            <marker date="1555324821658" expanded="true" signature="359:425" ph="/// 박스콜라이더의 x,y,z 영역 최소, 최대 값 ... " />
+            <marker date="1555324821658" expanded="true" signature="492:643" ph="/// 카메라의 중심점이 가운데에 있기 때문에 카메라가 화면 밖으로 나가지 않으려면 절반만 움직여줘야 함. ... " />
+            <marker date="1555324821658" expanded="true" signature="709:780" ph="/// 카메라의 반 높이 값을 구할 속성을 이용하기 위한 변수 ... " />
+            <marker date="1555324821658" expanded="true" signature="863:1074" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="899:957" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="971:1068" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="1101:1394" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="1422:2415" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="1486:2409" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="2014:2181" ph="/* (10,0,100)일 경우 10이 값, 0이 최소값, 100이 최댓값 ... */" />
+            <marker date="1555324821658" expanded="true" signature="2465:2598" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MovingObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="43" />
+          <folding>
+            <marker date="1555319658216" expanded="false" signature="6:44" ph="..." />
+            <marker date="1555319658216" expanded="true" signature="87:4834" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="94:198" ph="/// static : 정적 변수로서, 해당 스크립트가 적용된 모든 객체들은 Static으로 선언된 변수의 값을 공유함. ... " />
+            <marker date="1555319658216" expanded="true" signature="249:336" ph="/// transferMap 스크립트에 있는 transferMapName 변수의 값을 저장 ... " />
+            <marker date="1555319658216" expanded="true" signature="377:440" ph="/// 스피드와 캐릭터 움직임을 위한 벡터 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="499:556" ph="/// 대쉬를 눌렀을 때를 위한 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="623:693" ph="/// 대쉬 눌렀을 때 걷기 두 배씩 이동하는 것 막는 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="738:800" ph="/// 픽셀 단위로 움직이기 위해 필요한 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="867:933" ph="/// 코루틴이 반복실행되지 않게끔 제어해주는 변수. ... " />
+            <marker date="1555319658216" expanded="true" signature="972:1028" ph="/// 애니메이션 제어를 위한 부분 ... " />
+            <marker date="1555319658216" expanded="true" signature="1065:1134" ph="/// 벽이나 물체에 막혔을 때 멈추게 하기 위한 스크립트 ... " />
+            <marker date="1555319658216" expanded="true" signature="1278:1795" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1314:1531" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1544:1780" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1660:1770" ph="/* 주었기 때문. 그리고나서, 해당 스크립트가 적용된 객체가 또 생성될 경우, static으로 값을 공유한 instance의 값이 ... */" />
+            <marker date="1555319658216" expanded="true" signature="1828:4485" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1941:4388" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="2000:2107" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="2124:2225" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="2409:2485" ph="/* 만약에 벡터x의 값이 있다면 다른 벡터 값은 초기화한다. ... */" />
+            <marker date="1555319658216" expanded="true" signature="2764:2838" ph="/* hit = Null; 값이 리턴된다. ... */" />
+            <marker date="1555319658216" expanded="true" signature="3350:3423" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="3486:3569" ph="/* 픽셀 단위로 움직이기 위한 스크립트 ... */" />
+            <marker date="1555319658216" expanded="true" signature="3618:4343" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="3685:3804" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="3863:3982" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4051:4127" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4504:4832" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4535:4826" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4706:4816" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+          <folding>
+            <marker date="1555324821658" expanded="false" signature="6:78" ph="..." />
+            <marker date="1555324821658" expanded="true" signature="359:425" ph="/// 박스콜라이더의 x,y,z 영역 최소, 최대 값 ... " />
+            <marker date="1555324821658" expanded="true" signature="492:643" ph="/// 카메라의 중심점이 가운데에 있기 때문에 카메라가 화면 밖으로 나가지 않으려면 절반만 움직여줘야 함. ... " />
+            <marker date="1555324821658" expanded="true" signature="709:780" ph="/// 카메라의 반 높이 값을 구할 속성을 이용하기 위한 변수 ... " />
+            <marker date="1555324821658" expanded="true" signature="863:1074" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="899:957" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="971:1068" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="1101:1394" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="1422:2415" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="1486:2409" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="2014:2181" ph="/* (10,0,100)일 경우 10이 값, 0이 최소값, 100이 최댓값 ... */" />
+            <marker date="1555324821658" expanded="true" signature="2465:2598" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TransferMap.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <marker date="1555324725312" expanded="false" signature="6:113" ph="..." />
+            <marker date="1555324725312" expanded="true" signature="306:381" ph="{...}" />
+            <marker date="1555324725312" expanded="true" signature="438:716" ph="{...}" />
+            <marker date="1555324725312" expanded="true" signature="495:710" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/StartPoint.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <marker date="1555318727164" expanded="false" signature="6:78" ph="..." />
+            <marker date="1555318727164" expanded="true" signature="119:633" ph="{...}" />
+            <marker date="1555318727164" expanded="true" signature="265:631" ph="{...}" />
+            <marker date="1555318727164" expanded="true" signature="430:628" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MovingObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1729">
+          <caret line="92" column="13" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
+          <folding>
+            <marker date="1555319658216" expanded="false" signature="6:44" ph="..." />
+            <marker date="1555319658216" expanded="true" signature="87:4834" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="94:198" ph="/// static : 정적 변수로서, 해당 스크립트가 적용된 모든 객체들은 Static으로 선언된 변수의 값을 공유함. ... " />
+            <marker date="1555319658216" expanded="true" signature="249:336" ph="/// transferMap 스크립트에 있는 transferMapName 변수의 값을 저장 ... " />
+            <marker date="1555319658216" expanded="true" signature="377:440" ph="/// 스피드와 캐릭터 움직임을 위한 벡터 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="499:556" ph="/// 대쉬를 눌렀을 때를 위한 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="623:693" ph="/// 대쉬 눌렀을 때 걷기 두 배씩 이동하는 것 막는 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="738:800" ph="/// 픽셀 단위로 움직이기 위해 필요한 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="867:933" ph="/// 코루틴이 반복실행되지 않게끔 제어해주는 변수. ... " />
+            <marker date="1555319658216" expanded="true" signature="972:1028" ph="/// 애니메이션 제어를 위한 부분 ... " />
+            <marker date="1555319658216" expanded="true" signature="1065:1134" ph="/// 벽이나 물체에 막혔을 때 멈추게 하기 위한 스크립트 ... " />
+            <marker date="1555319658216" expanded="true" signature="1278:1795" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1314:1531" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1544:1780" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1660:1770" ph="/* 주었기 때문. 그리고나서, 해당 스크립트가 적용된 객체가 또 생성될 경우, static으로 값을 공유한 instance의 값이 ... */" />
+            <marker date="1555319658216" expanded="true" signature="1828:4485" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1941:4388" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="2000:2107" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="2124:2225" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="2409:2485" ph="/* 만약에 벡터x의 값이 있다면 다른 벡터 값은 초기화한다. ... */" />
+            <marker date="1555319658216" expanded="true" signature="2764:2838" ph="/* hit = Null; 값이 리턴된다. ... */" />
+            <marker date="1555319658216" expanded="true" signature="3350:3423" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="3486:3569" ph="/* 픽셀 단위로 움직이기 위한 스크립트 ... */" />
+            <marker date="1555319658216" expanded="true" signature="3618:4343" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="3685:3804" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="3863:3982" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4051:4127" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4504:4832" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4535:4826" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4706:4816" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
+          <folding>
+            <marker date="1555324821658" expanded="false" signature="6:78" ph="..." />
+            <marker date="1555324821658" expanded="true" signature="359:425" ph="/// 박스콜라이더의 x,y,z 영역 최소, 최대 값 ... " />
+            <marker date="1555324821658" expanded="true" signature="492:643" ph="/// 카메라의 중심점이 가운데에 있기 때문에 카메라가 화면 밖으로 나가지 않으려면 절반만 움직여줘야 함. ... " />
+            <marker date="1555324821658" expanded="true" signature="709:780" ph="/// 카메라의 반 높이 값을 구할 속성을 이용하기 위한 변수 ... " />
+            <marker date="1555324821658" expanded="true" signature="863:1074" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="899:957" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="971:1068" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="1101:1394" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="1422:2415" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="1486:2409" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="2014:2181" ph="/* (10,0,100)일 경우 10이 값, 0이 최소값, 100이 최댓값 ... */" />
+            <marker date="1555324821658" expanded="true" signature="2465:2598" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TransferMap.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <marker date="1555324725312" expanded="false" signature="6:113" ph="..." />
+            <marker date="1555324725312" expanded="true" signature="306:381" ph="{...}" />
+            <marker date="1555324725312" expanded="true" signature="438:716" ph="{...}" />
+            <marker date="1555324725312" expanded="true" signature="495:710" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MovingObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1729">
+          <caret line="92" column="13" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
+          <folding>
+            <marker date="1555319658216" expanded="false" signature="6:44" ph="..." />
+            <marker date="1555319658216" expanded="true" signature="87:4834" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="94:198" ph="/// static : 정적 변수로서, 해당 스크립트가 적용된 모든 객체들은 Static으로 선언된 변수의 값을 공유함. ... " />
+            <marker date="1555319658216" expanded="true" signature="249:336" ph="/// transferMap 스크립트에 있는 transferMapName 변수의 값을 저장 ... " />
+            <marker date="1555319658216" expanded="true" signature="377:440" ph="/// 스피드와 캐릭터 움직임을 위한 벡터 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="499:556" ph="/// 대쉬를 눌렀을 때를 위한 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="623:693" ph="/// 대쉬 눌렀을 때 걷기 두 배씩 이동하는 것 막는 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="738:800" ph="/// 픽셀 단위로 움직이기 위해 필요한 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="867:933" ph="/// 코루틴이 반복실행되지 않게끔 제어해주는 변수. ... " />
+            <marker date="1555319658216" expanded="true" signature="972:1028" ph="/// 애니메이션 제어를 위한 부분 ... " />
+            <marker date="1555319658216" expanded="true" signature="1065:1134" ph="/// 벽이나 물체에 막혔을 때 멈추게 하기 위한 스크립트 ... " />
+            <marker date="1555319658216" expanded="true" signature="1278:1795" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1314:1531" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1544:1780" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1660:1770" ph="/* 주었기 때문. 그리고나서, 해당 스크립트가 적용된 객체가 또 생성될 경우, static으로 값을 공유한 instance의 값이 ... */" />
+            <marker date="1555319658216" expanded="true" signature="1828:4485" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1941:4388" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="2000:2107" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="2124:2225" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="2409:2485" ph="/* 만약에 벡터x의 값이 있다면 다른 벡터 값은 초기화한다. ... */" />
+            <marker date="1555319658216" expanded="true" signature="2764:2838" ph="/* hit = Null; 값이 리턴된다. ... */" />
+            <marker date="1555319658216" expanded="true" signature="3350:3423" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="3486:3569" ph="/* 픽셀 단위로 움직이기 위한 스크립트 ... */" />
+            <marker date="1555319658216" expanded="true" signature="3618:4343" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="3685:3804" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="3863:3982" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4051:4127" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4504:4832" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4535:4826" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4706:4816" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
+          <folding>
+            <marker date="1555324821658" expanded="false" signature="6:78" ph="..." />
+            <marker date="1555324821658" expanded="true" signature="359:425" ph="/// 박스콜라이더의 x,y,z 영역 최소, 최대 값 ... " />
+            <marker date="1555324821658" expanded="true" signature="492:643" ph="/// 카메라의 중심점이 가운데에 있기 때문에 카메라가 화면 밖으로 나가지 않으려면 절반만 움직여줘야 함. ... " />
+            <marker date="1555324821658" expanded="true" signature="709:780" ph="/// 카메라의 반 높이 값을 구할 속성을 이용하기 위한 변수 ... " />
+            <marker date="1555324821658" expanded="true" signature="863:1074" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="899:957" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="971:1068" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="1101:1394" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="1422:2415" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="1486:2409" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="2014:2181" ph="/* (10,0,100)일 경우 10이 값, 0이 최소값, 100이 최댓값 ... */" />
+            <marker date="1555324821658" expanded="true" signature="2465:2598" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MovingObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1729">
+          <caret line="92" column="13" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
+          <folding>
+            <marker date="1555319658216" expanded="false" signature="6:44" ph="..." />
+            <marker date="1555319658216" expanded="true" signature="87:4834" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="94:198" ph="/// static : 정적 변수로서, 해당 스크립트가 적용된 모든 객체들은 Static으로 선언된 변수의 값을 공유함. ... " />
+            <marker date="1555319658216" expanded="true" signature="249:336" ph="/// transferMap 스크립트에 있는 transferMapName 변수의 값을 저장 ... " />
+            <marker date="1555319658216" expanded="true" signature="377:440" ph="/// 스피드와 캐릭터 움직임을 위한 벡터 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="499:556" ph="/// 대쉬를 눌렀을 때를 위한 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="623:693" ph="/// 대쉬 눌렀을 때 걷기 두 배씩 이동하는 것 막는 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="738:800" ph="/// 픽셀 단위로 움직이기 위해 필요한 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="867:933" ph="/// 코루틴이 반복실행되지 않게끔 제어해주는 변수. ... " />
+            <marker date="1555319658216" expanded="true" signature="972:1028" ph="/// 애니메이션 제어를 위한 부분 ... " />
+            <marker date="1555319658216" expanded="true" signature="1065:1134" ph="/// 벽이나 물체에 막혔을 때 멈추게 하기 위한 스크립트 ... " />
+            <marker date="1555319658216" expanded="true" signature="1278:1795" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1314:1531" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1544:1780" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1660:1770" ph="/* 주었기 때문. 그리고나서, 해당 스크립트가 적용된 객체가 또 생성될 경우, static으로 값을 공유한 instance의 값이 ... */" />
+            <marker date="1555319658216" expanded="true" signature="1828:4485" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1941:4388" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="2000:2107" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="2124:2225" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="2409:2485" ph="/* 만약에 벡터x의 값이 있다면 다른 벡터 값은 초기화한다. ... */" />
+            <marker date="1555319658216" expanded="true" signature="2764:2838" ph="/* hit = Null; 값이 리턴된다. ... */" />
+            <marker date="1555319658216" expanded="true" signature="3350:3423" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="3486:3569" ph="/* 픽셀 단위로 움직이기 위한 스크립트 ... */" />
+            <marker date="1555319658216" expanded="true" signature="3618:4343" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="3685:3804" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="3863:3982" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4051:4127" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4504:4832" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4535:4826" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4706:4816" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+          <folding>
+            <marker date="1555324821658" expanded="false" signature="6:78" ph="..." />
+            <marker date="1555324821658" expanded="true" signature="359:425" ph="/// 박스콜라이더의 x,y,z 영역 최소, 최대 값 ... " />
+            <marker date="1555324821658" expanded="true" signature="492:643" ph="/// 카메라의 중심점이 가운데에 있기 때문에 카메라가 화면 밖으로 나가지 않으려면 절반만 움직여줘야 함. ... " />
+            <marker date="1555324821658" expanded="true" signature="709:780" ph="/// 카메라의 반 높이 값을 구할 속성을 이용하기 위한 변수 ... " />
+            <marker date="1555324821658" expanded="true" signature="863:1074" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="899:957" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="971:1068" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="1101:1394" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="1422:2415" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="1486:2409" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="2014:2181" ph="/* (10,0,100)일 경우 10이 값, 0이 최소값, 100이 최댓값 ... */" />
+            <marker date="1555324821658" expanded="true" signature="2465:2598" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MovingObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1235">
+          <caret line="66" column="41" lean-forward="true" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
+          <folding>
+            <marker date="1555319658216" expanded="false" signature="6:44" ph="..." />
+            <marker date="1555319658216" expanded="true" signature="87:4834" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="94:198" ph="/// static : 정적 변수로서, 해당 스크립트가 적용된 모든 객체들은 Static으로 선언된 변수의 값을 공유함. ... " />
+            <marker date="1555319658216" expanded="true" signature="249:336" ph="/// transferMap 스크립트에 있는 transferMapName 변수의 값을 저장 ... " />
+            <marker date="1555319658216" expanded="true" signature="377:440" ph="/// 스피드와 캐릭터 움직임을 위한 벡터 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="499:556" ph="/// 대쉬를 눌렀을 때를 위한 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="623:693" ph="/// 대쉬 눌렀을 때 걷기 두 배씩 이동하는 것 막는 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="738:800" ph="/// 픽셀 단위로 움직이기 위해 필요한 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="867:933" ph="/// 코루틴이 반복실행되지 않게끔 제어해주는 변수. ... " />
+            <marker date="1555319658216" expanded="true" signature="972:1028" ph="/// 애니메이션 제어를 위한 부분 ... " />
+            <marker date="1555319658216" expanded="true" signature="1065:1134" ph="/// 벽이나 물체에 막혔을 때 멈추게 하기 위한 스크립트 ... " />
+            <marker date="1555319658216" expanded="true" signature="1278:1795" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1314:1531" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1544:1780" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1660:1770" ph="/* 주었기 때문. 그리고나서, 해당 스크립트가 적용된 객체가 또 생성될 경우, static으로 값을 공유한 instance의 값이 ... */" />
+            <marker date="1555319658216" expanded="true" signature="1828:4485" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1941:4388" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="2000:2107" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="2124:2225" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="2409:2485" ph="/* 만약에 벡터x의 값이 있다면 다른 벡터 값은 초기화한다. ... */" />
+            <marker date="1555319658216" expanded="true" signature="2764:2838" ph="/* hit = Null; 값이 리턴된다. ... */" />
+            <marker date="1555319658216" expanded="true" signature="3350:3423" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="3486:3569" ph="/* 픽셀 단위로 움직이기 위한 스크립트 ... */" />
+            <marker date="1555319658216" expanded="true" signature="3618:4343" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="3685:3804" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="3863:3982" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4051:4127" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4504:4832" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4535:4826" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4706:4816" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MovingObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1216">
+          <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+          <folding>
+            <marker date="1555319658216" expanded="false" signature="6:44" ph="..." />
+            <marker date="1555319658216" expanded="true" signature="87:4834" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="94:198" ph="/// static : 정적 변수로서, 해당 스크립트가 적용된 모든 객체들은 Static으로 선언된 변수의 값을 공유함. ... " />
+            <marker date="1555319658216" expanded="true" signature="249:336" ph="/// transferMap 스크립트에 있는 transferMapName 변수의 값을 저장 ... " />
+            <marker date="1555319658216" expanded="true" signature="377:440" ph="/// 스피드와 캐릭터 움직임을 위한 벡터 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="499:556" ph="/// 대쉬를 눌렀을 때를 위한 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="623:693" ph="/// 대쉬 눌렀을 때 걷기 두 배씩 이동하는 것 막는 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="738:800" ph="/// 픽셀 단위로 움직이기 위해 필요한 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="867:933" ph="/// 코루틴이 반복실행되지 않게끔 제어해주는 변수. ... " />
+            <marker date="1555319658216" expanded="true" signature="972:1028" ph="/// 애니메이션 제어를 위한 부분 ... " />
+            <marker date="1555319658216" expanded="true" signature="1065:1134" ph="/// 벽이나 물체에 막혔을 때 멈추게 하기 위한 스크립트 ... " />
+            <marker date="1555319658216" expanded="true" signature="1278:1795" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1314:1531" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1544:1780" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1660:1770" ph="/* 주었기 때문. 그리고나서, 해당 스크립트가 적용된 객체가 또 생성될 경우, static으로 값을 공유한 instance의 값이 ... */" />
+            <marker date="1555319658216" expanded="true" signature="1828:4485" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1941:4388" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="2000:2107" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="2124:2225" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="2409:2485" ph="/* 만약에 벡터x의 값이 있다면 다른 벡터 값은 초기화한다. ... */" />
+            <marker date="1555319658216" expanded="true" signature="2764:2838" ph="/* hit = Null; 값이 리턴된다. ... */" />
+            <marker date="1555319658216" expanded="true" signature="3350:3423" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="3486:3569" ph="/* 픽셀 단위로 움직이기 위한 스크립트 ... */" />
+            <marker date="1555319658216" expanded="true" signature="3618:4343" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="3685:3804" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="3863:3982" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4051:4127" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4504:4832" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4535:4826" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4706:4816" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MovingObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+          <folding>
+            <marker date="1555319658216" expanded="false" signature="6:44" ph="..." />
+            <marker date="1555319658216" expanded="true" signature="87:4834" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="94:198" ph="/// static : 정적 변수로서, 해당 스크립트가 적용된 모든 객체들은 Static으로 선언된 변수의 값을 공유함. ... " />
+            <marker date="1555319658216" expanded="true" signature="249:336" ph="/// transferMap 스크립트에 있는 transferMapName 변수의 값을 저장 ... " />
+            <marker date="1555319658216" expanded="true" signature="377:440" ph="/// 스피드와 캐릭터 움직임을 위한 벡터 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="499:556" ph="/// 대쉬를 눌렀을 때를 위한 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="623:693" ph="/// 대쉬 눌렀을 때 걷기 두 배씩 이동하는 것 막는 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="738:800" ph="/// 픽셀 단위로 움직이기 위해 필요한 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="867:933" ph="/// 코루틴이 반복실행되지 않게끔 제어해주는 변수. ... " />
+            <marker date="1555319658216" expanded="true" signature="972:1028" ph="/// 애니메이션 제어를 위한 부분 ... " />
+            <marker date="1555319658216" expanded="true" signature="1065:1134" ph="/// 벽이나 물체에 막혔을 때 멈추게 하기 위한 스크립트 ... " />
+            <marker date="1555319658216" expanded="true" signature="1278:1795" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1314:1531" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1544:1780" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1660:1770" ph="/* 주었기 때문. 그리고나서, 해당 스크립트가 적용된 객체가 또 생성될 경우, static으로 값을 공유한 instance의 값이 ... */" />
+            <marker date="1555319658216" expanded="true" signature="1828:4485" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1941:4388" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="2000:2107" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="2124:2225" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="2409:2485" ph="/* 만약에 벡터x의 값이 있다면 다른 벡터 값은 초기화한다. ... */" />
+            <marker date="1555319658216" expanded="true" signature="2764:2838" ph="/* hit = Null; 값이 리턴된다. ... */" />
+            <marker date="1555319658216" expanded="true" signature="3350:3423" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="3486:3569" ph="/* 픽셀 단위로 움직이기 위한 스크립트 ... */" />
+            <marker date="1555319658216" expanded="true" signature="3618:4343" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="3685:3804" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="3863:3982" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4051:4127" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4504:4832" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4535:4826" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4706:4816" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MovingObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding>
+            <marker date="1555319658216" expanded="false" signature="6:44" ph="..." />
+            <marker date="1555319658216" expanded="true" signature="87:4834" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="94:198" ph="/// static : 정적 변수로서, 해당 스크립트가 적용된 모든 객체들은 Static으로 선언된 변수의 값을 공유함. ... " />
+            <marker date="1555319658216" expanded="true" signature="249:336" ph="/// transferMap 스크립트에 있는 transferMapName 변수의 값을 저장 ... " />
+            <marker date="1555319658216" expanded="true" signature="377:440" ph="/// 스피드와 캐릭터 움직임을 위한 벡터 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="499:556" ph="/// 대쉬를 눌렀을 때를 위한 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="623:693" ph="/// 대쉬 눌렀을 때 걷기 두 배씩 이동하는 것 막는 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="738:800" ph="/// 픽셀 단위로 움직이기 위해 필요한 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="867:933" ph="/// 코루틴이 반복실행되지 않게끔 제어해주는 변수. ... " />
+            <marker date="1555319658216" expanded="true" signature="972:1028" ph="/// 애니메이션 제어를 위한 부분 ... " />
+            <marker date="1555319658216" expanded="true" signature="1065:1134" ph="/// 벽이나 물체에 막혔을 때 멈추게 하기 위한 스크립트 ... " />
+            <marker date="1555319658216" expanded="true" signature="1278:1795" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1314:1531" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1544:1780" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1660:1770" ph="/* 주었기 때문. 그리고나서, 해당 스크립트가 적용된 객체가 또 생성될 경우, static으로 값을 공유한 instance의 값이 ... */" />
+            <marker date="1555319658216" expanded="true" signature="1828:4485" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1941:4388" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="2000:2107" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="2124:2225" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="2409:2485" ph="/* 만약에 벡터x의 값이 있다면 다른 벡터 값은 초기화한다. ... */" />
+            <marker date="1555319658216" expanded="true" signature="2764:2838" ph="/* hit = Null; 값이 리턴된다. ... */" />
+            <marker date="1555319658216" expanded="true" signature="3350:3423" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="3486:3569" ph="/* 픽셀 단위로 움직이기 위한 스크립트 ... */" />
+            <marker date="1555319658216" expanded="true" signature="3618:4343" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="3685:3804" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="3863:3982" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4051:4127" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4504:4832" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4535:4826" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4706:4816" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MovingObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+          <folding>
+            <marker date="1555319658216" expanded="false" signature="6:44" ph="..." />
+            <marker date="1555319658216" expanded="true" signature="87:4834" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="94:198" ph="/// static : 정적 변수로서, 해당 스크립트가 적용된 모든 객체들은 Static으로 선언된 변수의 값을 공유함. ... " />
+            <marker date="1555319658216" expanded="true" signature="249:336" ph="/// transferMap 스크립트에 있는 transferMapName 변수의 값을 저장 ... " />
+            <marker date="1555319658216" expanded="true" signature="377:440" ph="/// 스피드와 캐릭터 움직임을 위한 벡터 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="499:556" ph="/// 대쉬를 눌렀을 때를 위한 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="623:693" ph="/// 대쉬 눌렀을 때 걷기 두 배씩 이동하는 것 막는 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="738:800" ph="/// 픽셀 단위로 움직이기 위해 필요한 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="867:933" ph="/// 코루틴이 반복실행되지 않게끔 제어해주는 변수. ... " />
+            <marker date="1555319658216" expanded="true" signature="972:1028" ph="/// 애니메이션 제어를 위한 부분 ... " />
+            <marker date="1555319658216" expanded="true" signature="1065:1134" ph="/// 벽이나 물체에 막혔을 때 멈추게 하기 위한 스크립트 ... " />
+            <marker date="1555319658216" expanded="true" signature="1278:1795" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1314:1531" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1544:1780" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1660:1770" ph="/* 주었기 때문. 그리고나서, 해당 스크립트가 적용된 객체가 또 생성될 경우, static으로 값을 공유한 instance의 값이 ... */" />
+            <marker date="1555319658216" expanded="true" signature="1828:4485" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1941:4388" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="2000:2107" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="2124:2225" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="2409:2485" ph="/* 만약에 벡터x의 값이 있다면 다른 벡터 값은 초기화한다. ... */" />
+            <marker date="1555319658216" expanded="true" signature="2764:2838" ph="/* hit = Null; 값이 리턴된다. ... */" />
+            <marker date="1555319658216" expanded="true" signature="3350:3423" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="3486:3569" ph="/* 픽셀 단위로 움직이기 위한 스크립트 ... */" />
+            <marker date="1555319658216" expanded="true" signature="3618:4343" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="3685:3804" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="3863:3982" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4051:4127" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4504:4832" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4535:4826" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4706:4816" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MovingObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+          <folding>
+            <marker date="1555319658216" expanded="false" signature="6:44" ph="..." />
+            <marker date="1555319658216" expanded="true" signature="87:4834" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="94:198" ph="/// static : 정적 변수로서, 해당 스크립트가 적용된 모든 객체들은 Static으로 선언된 변수의 값을 공유함. ... " />
+            <marker date="1555319658216" expanded="true" signature="249:336" ph="/// transferMap 스크립트에 있는 transferMapName 변수의 값을 저장 ... " />
+            <marker date="1555319658216" expanded="true" signature="377:440" ph="/// 스피드와 캐릭터 움직임을 위한 벡터 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="499:556" ph="/// 대쉬를 눌렀을 때를 위한 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="623:693" ph="/// 대쉬 눌렀을 때 걷기 두 배씩 이동하는 것 막는 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="738:800" ph="/// 픽셀 단위로 움직이기 위해 필요한 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="867:933" ph="/// 코루틴이 반복실행되지 않게끔 제어해주는 변수. ... " />
+            <marker date="1555319658216" expanded="true" signature="972:1028" ph="/// 애니메이션 제어를 위한 부분 ... " />
+            <marker date="1555319658216" expanded="true" signature="1065:1134" ph="/// 벽이나 물체에 막혔을 때 멈추게 하기 위한 스크립트 ... " />
+            <marker date="1555319658216" expanded="true" signature="1278:1795" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1314:1531" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1544:1780" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1660:1770" ph="/* 주었기 때문. 그리고나서, 해당 스크립트가 적용된 객체가 또 생성될 경우, static으로 값을 공유한 instance의 값이 ... */" />
+            <marker date="1555319658216" expanded="true" signature="1828:4485" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1941:4388" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="2000:2107" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="2124:2225" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="2409:2485" ph="/* 만약에 벡터x의 값이 있다면 다른 벡터 값은 초기화한다. ... */" />
+            <marker date="1555319658216" expanded="true" signature="2764:2838" ph="/* hit = Null; 값이 리턴된다. ... */" />
+            <marker date="1555319658216" expanded="true" signature="3350:3423" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="3486:3569" ph="/* 픽셀 단위로 움직이기 위한 스크립트 ... */" />
+            <marker date="1555319658216" expanded="true" signature="3618:4343" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="3685:3804" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="3863:3982" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4051:4127" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4504:4832" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4535:4826" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4706:4816" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/StartPoint.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <marker date="1555318727164" expanded="false" signature="6:78" ph="..." />
+            <marker date="1555318727164" expanded="true" signature="119:633" ph="{...}" />
+            <marker date="1555318727164" expanded="true" signature="265:631" ph="{...}" />
+            <marker date="1555318727164" expanded="true" signature="430:628" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TransferMap.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+          <folding>
+            <marker date="1555324725312" expanded="false" signature="6:113" ph="..." />
+            <marker date="1555324725312" expanded="true" signature="306:381" ph="{...}" />
+            <marker date="1555324725312" expanded="true" signature="438:716" ph="{...}" />
+            <marker date="1555324725312" expanded="true" signature="495:710" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1558">
+          <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
+          <folding>
+            <marker date="1555324821658" expanded="false" signature="6:78" ph="..." />
+            <marker date="1555324821658" expanded="true" signature="359:425" ph="/// 박스콜라이더의 x,y,z 영역 최소, 최대 값 ... " />
+            <marker date="1555324821658" expanded="true" signature="492:643" ph="/// 카메라의 중심점이 가운데에 있기 때문에 카메라가 화면 밖으로 나가지 않으려면 절반만 움직여줘야 함. ... " />
+            <marker date="1555324821658" expanded="true" signature="709:780" ph="/// 카메라의 반 높이 값을 구할 속성을 이용하기 위한 변수 ... " />
+            <marker date="1555324821658" expanded="true" signature="863:1074" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="899:957" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="971:1068" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="1101:1394" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="1422:2415" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="1486:2409" ph="{...}" />
+            <marker date="1555324821658" expanded="true" signature="2014:2181" ph="/* (10,0,100)일 경우 10이 값, 0이 최소값, 100이 최댓값 ... */" />
+            <marker date="1555324821658" expanded="true" signature="2465:2598" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Bound.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding>
+            <marker date="1555325034881" expanded="false" signature="6:78" ph="..." />
+            <marker date="1555325034881" expanded="true" signature="114:332" ph="{...}" />
+            <marker date="1555325034881" expanded="true" signature="205:330" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MovingObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="636">
+          <caret line="68" column="28" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="28" />
+          <folding>
+            <marker date="1555319658216" expanded="false" signature="6:44" ph="..." />
+            <marker date="1555319658216" expanded="true" signature="87:4834" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="94:198" ph="/// static : 정적 변수로서, 해당 스크립트가 적용된 모든 객체들은 Static으로 선언된 변수의 값을 공유함. ... " />
+            <marker date="1555319658216" expanded="true" signature="249:336" ph="/// transferMap 스크립트에 있는 transferMapName 변수의 값을 저장 ... " />
+            <marker date="1555319658216" expanded="true" signature="377:440" ph="/// 스피드와 캐릭터 움직임을 위한 벡터 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="499:556" ph="/// 대쉬를 눌렀을 때를 위한 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="623:693" ph="/// 대쉬 눌렀을 때 걷기 두 배씩 이동하는 것 막는 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="738:800" ph="/// 픽셀 단위로 움직이기 위해 필요한 변수 ... " />
+            <marker date="1555319658216" expanded="true" signature="867:933" ph="/// 코루틴이 반복실행되지 않게끔 제어해주는 변수. ... " />
+            <marker date="1555319658216" expanded="true" signature="972:1028" ph="/// 애니메이션 제어를 위한 부분 ... " />
+            <marker date="1555319658216" expanded="true" signature="1065:1134" ph="/// 벽이나 물체에 막혔을 때 멈추게 하기 위한 스크립트 ... " />
+            <marker date="1555319658216" expanded="true" signature="1278:1795" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1314:1531" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1544:1780" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1660:1770" ph="/* 주었기 때문. 그리고나서, 해당 스크립트가 적용된 객체가 또 생성될 경우, static으로 값을 공유한 instance의 값이 ... */" />
+            <marker date="1555319658216" expanded="true" signature="1828:4485" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="1941:4388" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="2000:2107" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="2124:2225" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="2409:2485" ph="/* 만약에 벡터x의 값이 있다면 다른 벡터 값은 초기화한다. ... */" />
+            <marker date="1555319658216" expanded="true" signature="2764:2838" ph="/* hit = Null; 값이 리턴된다. ... */" />
+            <marker date="1555319658216" expanded="true" signature="3350:3423" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="3486:3569" ph="/* 픽셀 단위로 움직이기 위한 스크립트 ... */" />
+            <marker date="1555319658216" expanded="true" signature="3618:4343" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="3685:3804" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="3863:3982" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4051:4127" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4504:4832" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4535:4826" ph="{...}" />
+            <marker date="1555319658216" expanded="true" signature="4706:4816" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
